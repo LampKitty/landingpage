@@ -21,7 +21,51 @@ body {
 .top {
     height: 370px;
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
+
+.top img {
+    max-width: 400px;
+    max-height: 200px;
+    flex:1;
+}
+
+.top-content {
+    min-width: 250px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome-website {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.top-content .top-content-middle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top-content .top-content-signup {
+    width: 80px;
+    height: 30px;
+    background-color: #3882f6;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
 
 .header li ul {
     display: flex;
