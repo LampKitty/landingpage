@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 40px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.top {
+    height: 370px;
+    background-color: #1f2937;
+}
+
+.header li ul {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
