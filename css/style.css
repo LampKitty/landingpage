@@ -84,11 +84,11 @@ body {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 30px;
-    background-color: #fffdc0;
+    background-color: #fc50c0;
 }
 
 .content-info {
-    color: #3468d5;
+    color: #fcf9a5;
     font-size: 36px;
     font-weight: bold;
 }
@@ -110,6 +110,7 @@ body {
     display: flex;
     max-width: 150px;
     flex-wrap: wrap;
+    font-size: 14px;
 }
 
 #content-box1, #content-box2, #content-box3, #content-box4 {
@@ -122,10 +123,11 @@ body {
 
 .quote {
     height: 240px;
-    background-color: #ff5d6a;
+    background-color: #ee3b4a;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fcf9a5;
 }
 
 .quote-container {
@@ -150,7 +152,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c4feff;
+    background-color: #66b7fa;
 }
 
 .signup-content {
