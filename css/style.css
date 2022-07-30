@@ -186,6 +186,10 @@ body {
 .footer {
     background-color: #1f2937;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
 
 li {
