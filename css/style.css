@@ -5,30 +5,31 @@ body {
 
 .header {
     height: 40px;
-    background-color: #1f2937;
+    background-color: #e499ff;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 18px;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
-    justify-content: center;
+    max-width: 90px;
+    flex: 1;
 }
 
+.header li {
+    flex: 1;
+    
+}
 
 .header li ul {
     display: flex;
     gap: 18px;
-    justify-content: center;
+    justify-content: end;
 }
 
 .top {
     height: 250px;
-    background-color: #1f2937;
+    background-color: #e499ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,25 +53,25 @@ body {
 
 .awesome-website {
     font-size: 48px;
-    color: #f9faf8;
+    color: #fcf9a5;
     font-weight: bold;
 }
 
 .top-content .top-content-middle {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #fcf9a5;
 }
 
 .top-content .top-content-signup {
     width: 90px;
     height: 30px;
-    background-color: #3882f6;
+    background-color: #fc74cc;
     margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: #f9faf8;
+    color: #ffffff;
     font-weight: 900;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -83,10 +84,11 @@ body {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 30px;
+    background-color: #fffdc0;
 }
 
 .content-info {
-    color: #1f2937;
+    color: #3468d5;
     font-size: 36px;
     font-weight: bold;
 }
@@ -97,6 +99,12 @@ body {
     gap: 20px;
 }
 
+.content-boxes img {
+    max-width: 151px;
+    height: 151px;
+    border-radius: 9px;
+}
+
 #content-column1, #content-column2, #content-column3, 
 #content-column4 {
     display: flex;
@@ -105,7 +113,7 @@ body {
 }
 
 #content-box1, #content-box2, #content-box3, #content-box4 {
-    border: #3882f6 solid;
+    border: #3468d5 solid;
     border-radius: 9px;
     height: 150px;
     width: 150px;
@@ -114,7 +122,7 @@ body {
 
 .quote {
     height: 240px;
-    background-color: #e5e7eb;
+    background-color: #ff5d6a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,6 +150,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #c4feff;
 }
 
 .signup-content {
@@ -190,6 +199,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    background-color: #3468d5;
 }
 
 li {
@@ -198,5 +208,6 @@ li {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #fcf9a5;
+    font-weight: bold;
 }
