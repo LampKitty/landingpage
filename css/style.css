@@ -139,6 +139,48 @@ body {
 
 .signup {
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-content {
+    height: 110px;
+    width: 600px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+
+.action {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    flex: 1;
+}
+
+.signup-info {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.enroll {
+    max-width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: #f9faf8 solid 2px;
+    flex: 1;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
 
 .footer {
